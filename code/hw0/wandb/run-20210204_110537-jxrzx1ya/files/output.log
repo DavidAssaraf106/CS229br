@@ -1,0 +1,29 @@
+Number of trainable parameters of the current model  1558026
+Starting Epoch 0
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Training torch.Size([50000, 3, 32, 32]) torch.Size([50000])
+Testing torch.Size([10000, 3, 32, 32]) torch.Size([10000])
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Training torch.Size([50000, 3, 32, 32]) torch.Size([50000])
+Testing torch.Size([10000, 3, 32, 32]) torch.Size([10000])
+Training noisy  torch.Size([50000, 3, 32, 32]) torch.Size([50000])
+Testing noisy  torch.Size([10000, 3, 32, 32]) torch.Size([10000])
+Training randomized  torch.Size([50000, 3, 32, 32]) torch.Size([50000])
+Testing randomized  torch.Size([10000, 3, 32, 32]) torch.Size([10000])
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Number of trainable parameters of the current model  6666

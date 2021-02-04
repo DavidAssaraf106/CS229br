@@ -1,0 +1,313 @@
+2021-02-04 10:40:39,095 INFO    MainThread:8557 [internal.py:wandb_internal():81] W&B internal server running at pid: 8557
+2021-02-04 10:40:39,098 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: check_version
+2021-02-04 10:40:39,098 DEBUG   SenderThread:8557 [sender.py:send():117] send: header
+2021-02-04 10:40:39,098 INFO    WriterThread:8557 [datastore.py:open_for_write():77] open: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/run-19n99738.wandb
+2021-02-04 10:40:39,099 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:40:39,099 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: check_version
+2021-02-04 10:40:39,102 DEBUG   Thread-4  :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): pypi.org:443
+2021-02-04 10:40:39,122 DEBUG   Thread-4  :8557 [connectionpool.py:_make_request():461] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 53641
+2021-02-04 10:40:39,132 DEBUG   SenderThread:8557 [sender.py:send():117] send: run
+2021-02-04 10:40:39,136 DEBUG   SenderThread:8557 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/notebooks/mltheoryseminar, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-02-04 10:40:39,147 DEBUG   SenderThread:8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:40:39,291 DEBUG   SenderThread:8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:40:39,298 INFO    SenderThread:8557 [dir_watcher.py:__init__():165] watching files in: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files
+2021-02-04 10:40:39,298 INFO    SenderThread:8557 [sender.py:_start_run_threads():596] run started: 19n99738 with start time 1612435238
+2021-02-04 10:40:39,298 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,298 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,301 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: run_start
+2021-02-04 10:40:39,305 DEBUG   HandlerThread:8557 [meta.py:__init__():34] meta init
+2021-02-04 10:40:39,306 DEBUG   HandlerThread:8557 [meta.py:__init__():48] meta init done
+2021-02-04 10:40:39,306 DEBUG   HandlerThread:8557 [meta.py:probe():190] probe
+2021-02-04 10:40:39,312 DEBUG   HandlerThread:8557 [meta.py:_setup_git():180] setup git
+2021-02-04 10:40:39,314 DEBUG   HandlerThread:8557 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/notebooks/mltheoryseminar, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-02-04 10:40:39,323 DEBUG   HandlerThread:8557 [cmd.py:execute():719] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/notebooks/mltheoryseminar, universal_newlines=False, shell=None, istream=None)
+2021-02-04 10:40:39,328 DEBUG   HandlerThread:8557 [meta.py:_setup_git():187] setup git done
+2021-02-04 10:40:39,328 DEBUG   HandlerThread:8557 [meta.py:_save_pip():52] save pip
+2021-02-04 10:40:39,329 DEBUG   HandlerThread:8557 [meta.py:_save_pip():66] save pip done
+2021-02-04 10:40:39,329 DEBUG   HandlerThread:8557 [meta.py:probe():231] probe done
+2021-02-04 10:40:39,334 DEBUG   SenderThread:8557 [sender.py:send():117] send: files
+2021-02-04 10:40:39,334 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2021-02-04 10:40:39,342 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: status
+2021-02-04 10:40:39,343 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:40:39,343 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: status
+2021-02-04 10:40:39,345 DEBUG   Thread-11 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:40:39,346 DEBUG   SenderThread:8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:40:39,453 DEBUG   SenderThread:8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:40:39,473 DEBUG   Thread-11 :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:40:39,479 DEBUG   Thread-11 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-04 10:40:39,726 DEBUG   Thread-11 :8557 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/wandb-metadata.json?Expires=1612521639&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=KSN6OJ%2BZ2KUVButHsz6D0ffC1zeYV0YFqdKjdac5i4kF3bTgTXWMBW751f4iN1pJzs6rLYriXnykS3Eg2UJH6sUDuf4F07JuwRPG1AJobC%2Bim3KFi5L4BWFpPxY34SHRmlrZGTnTEi39RGraSlJGTs15aSWd8RaDXGWz6R%2Bo9Ch7SdWiRLVAmIzuAeRMrfudIzyAFaZM037vL6K9PkVirJ7UOVlDBgs4nzjDUk9RNMstHyExbOWgMCxgOvaMnPb0EdJ5D%2BQOkyS0rdJz9ZKv9gmc%2BVfvkhw7P2D1I9uej3kJBSps%2Fp9RmCSqodhq58kkprUM6mTZK9AoR056j4P47g%3D%3D HTTP/1.1" 200 0
+2021-02-04 10:40:39,727 INFO    Thread-11 :8557 [upload_job.py:push():133] Uploaded file /tmp/tmpceu1047_wandb/21ic5m39-wandb-metadata.json
+2021-02-04 10:40:39,917 DEBUG   SenderThread:8557 [sender.py:send():117] send: files
+2021-02-04 10:40:39,918 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file media/graph/graph_2_summary_e69b82ca.graph.json with policy now
+2021-02-04 10:40:39,918 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,920 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,920 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,920 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,921 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,921 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,922 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,927 DEBUG   Thread-12 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:40:39,929 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,929 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,930 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,930 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,930 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,930 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,931 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,931 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,931 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,931 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,932 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,932 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,932 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,932 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,933 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,933 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,933 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,933 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,934 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,934 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,934 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,934 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,935 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,935 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,935 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,935 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,937 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:39,937 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:39,939 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:40,067 DEBUG   Thread-12 :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:40:40,076 DEBUG   Thread-12 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-04 10:40:40,300 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_created():213] file/dir created: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:40:40,300 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_created():213] file/dir created: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/media/graph/graph_2_summary_e69b82ca.graph.json
+2021-02-04 10:40:40,301 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_created():213] file/dir created: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:40,301 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_created():213] file/dir created: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/requirements.txt
+2021-02-04 10:40:40,301 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_created():213] file/dir created: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-metadata.json
+2021-02-04 10:40:40,301 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_created():213] file/dir created: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/media
+2021-02-04 10:40:40,301 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_created():213] file/dir created: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/media/graph
+2021-02-04 10:40:40,377 DEBUG   Thread-12 :8557 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/media/graph/graph_2_summary_e69b82ca.graph.json?Expires=1612521640&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Rhu8pPH0slHyTIm5GXIr2xWshQSFenCgjnEF2o9GaroyLDRUlkd%2BRyyBQNmmSH0bc2zzFLpeUFC41nB0s%2B0sNaaYOhOsFfBBG6%2F2NEATfhNiAiIBw4ZwzSlMpziN%2FQVwkuP9%2FOzj73KnxNM%2FgSUAHOSQw6H1JmT6W3IKeQ5auKLNMk7jUrIOvZq3oXNNxsfisytPbhXnRaWS2tZvIYeNUb2VOQcX3mhI9AE53DuligHcnZTuPDdxdHQR3wJ95j4glA1gbxAmWh9VVZI7oRRRj8iaL0jAyehrl3qp5esRBzc%2FaxyL8lyJwlMCzXHP6Kbm4i%2F3AX5XZHPVMsojF75Apg%3D%3D HTTP/1.1" 200 0
+2021-02-04 10:40:40,379 INFO    Thread-12 :8557 [upload_job.py:push():133] Uploaded file /tmp/tmpceu1047_wandb/t5tyyjbf-media/graph/graph_2_summary_e69b82ca.graph.json
+2021-02-04 10:40:41,299 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:41,306 DEBUG   Thread-5  :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:40:41,456 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:40:42,300 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:42,654 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:40:43,300 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:43,657 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:40:44,301 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:44,965 DEBUG   SenderThread:8557 [sender.py:send():117] send: history
+2021-02-04 10:40:44,965 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:44,966 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:45,301 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:40:45,302 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:45,891 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:40:46,302 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:47,088 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:40:47,302 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:47,913 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:40:48,303 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:49,304 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:50,304 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:50,771 DEBUG   SenderThread:8557 [sender.py:send():117] send: history
+2021-02-04 10:40:50,773 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:50,779 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:51,108 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:40:51,305 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:40:51,305 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:51,528 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:40:52,305 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:53,053 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:40:53,306 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:54,307 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:54,467 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: status
+2021-02-04 10:40:54,467 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:40:54,467 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: status
+2021-02-04 10:40:54,469 DEBUG   SenderThread:8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:40:54,586 DEBUG   SenderThread:8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:40:55,255 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:40:55,307 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:55,963 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:40:56,308 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:56,363 DEBUG   SenderThread:8557 [sender.py:send():117] send: history
+2021-02-04 10:40:56,365 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:40:56,367 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:40:57,308 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:40:57,309 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:57,546 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:40:58,309 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:59,309 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:40:59,515 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:00,310 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:00,405 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:41:01,310 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:01,986 DEBUG   SenderThread:8557 [sender.py:send():117] send: history
+2021-02-04 10:41:01,988 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:41:01,993 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:41:02,311 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:41:02,311 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:02,320 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:03,311 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:04,275 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:04,312 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:04,841 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:41:05,312 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:06,313 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:06,715 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:07,313 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:07,601 DEBUG   SenderThread:8557 [sender.py:send():117] send: history
+2021-02-04 10:41:07,602 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:41:07,605 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:41:08,314 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:41:08,314 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:08,982 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:09,277 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:41:09,314 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:09,592 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: status
+2021-02-04 10:41:09,593 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:09,593 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: status
+2021-02-04 10:41:09,595 DEBUG   SenderThread:8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:41:09,709 DEBUG   SenderThread:8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:41:10,315 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:11,027 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:11,315 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:12,316 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:13,288 DEBUG   SenderThread:8557 [sender.py:send():117] send: history
+2021-02-04 10:41:13,290 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:41:13,298 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:41:13,316 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:41:13,317 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:13,630 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:13,716 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:41:14,317 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:15,317 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:15,568 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:16,318 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:17,319 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:17,882 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:18,157 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:41:18,319 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:19,061 DEBUG   SenderThread:8557 [sender.py:send():117] send: history
+2021-02-04 10:41:19,064 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:41:19,067 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:41:19,320 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:41:19,320 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:20,233 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:20,320 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:21,320 INFO    Thread-8  :8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:21,471 WARNING MainThread:8557 [internal.py:wandb_internal():135] Internal process interrupt: 1
+2021-02-04 10:41:22,607 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:41:22,717 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:24,452 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: poll_exit
+2021-02-04 10:41:24,452 DEBUG   SenderThread:8557 [sender.py:send():117] send: telemetry
+2021-02-04 10:41:24,458 DEBUG   SenderThread:8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:41:24,593 DEBUG   SenderThread:8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:41:24,596 DEBUG   SenderThread:8557 [sender.py:send():117] send: exit
+2021-02-04 10:41:24,597 INFO    SenderThread:8557 [sender.py:send_exit():195] handling exit code: 0
+2021-02-04 10:41:24,597 INFO    SenderThread:8557 [sender.py:send_exit():203] send defer
+2021-02-04 10:41:24,597 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:24,597 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: poll_exit
+2021-02-04 10:41:24,598 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:24,598 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 0
+2021-02-04 10:41:24,598 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:24,598 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:24,598 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 0
+2021-02-04 10:41:24,598 INFO    SenderThread:8557 [sender.py:send_request_defer():248] send defer: 1
+2021-02-04 10:41:24,599 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:24,599 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 1
+2021-02-04 10:41:24,623 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:24,623 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:24,624 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 1
+2021-02-04 10:41:24,624 INFO    SenderThread:8557 [sender.py:send_request_defer():248] send defer: 2
+2021-02-04 10:41:24,624 DEBUG   SenderThread:8557 [sender.py:send():117] send: stats
+2021-02-04 10:41:24,624 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:24,624 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 2
+2021-02-04 10:41:24,626 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:24,626 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:24,626 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 2
+2021-02-04 10:41:24,626 INFO    SenderThread:8557 [sender.py:send_request_defer():248] send defer: 3
+2021-02-04 10:41:24,627 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:24,627 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 3
+2021-02-04 10:41:24,628 DEBUG   SenderThread:8557 [sender.py:send():117] send: summary
+2021-02-04 10:41:24,631 INFO    SenderThread:8557 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-04 10:41:24,632 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:24,632 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:24,632 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 3
+2021-02-04 10:41:24,632 INFO    SenderThread:8557 [sender.py:send_request_defer():248] send defer: 4
+2021-02-04 10:41:24,632 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:24,632 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 4
+2021-02-04 10:41:24,632 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:24,633 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:24,633 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 4
+2021-02-04 10:41:24,633 INFO    SenderThread:8557 [dir_watcher.py:finish():279] shutting down directory watcher
+2021-02-04 10:41:24,733 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:25,322 INFO    SenderThread:8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:41:25,323 INFO    SenderThread:8557 [dir_watcher.py:_on_file_modified():226] file/dir modified: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/config.yaml
+2021-02-04 10:41:25,323 INFO    SenderThread:8557 [dir_watcher.py:finish():309] scan: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files
+2021-02-04 10:41:25,323 INFO    SenderThread:8557 [dir_watcher.py:finish():315] scan save: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/config.yaml config.yaml
+2021-02-04 10:41:25,323 INFO    SenderThread:8557 [dir_watcher.py:finish():315] scan save: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json wandb-summary.json
+2021-02-04 10:41:25,324 INFO    SenderThread:8557 [dir_watcher.py:finish():315] scan save: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/requirements.txt requirements.txt
+2021-02-04 10:41:25,327 DEBUG   Thread-13 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:41:25,328 INFO    SenderThread:8557 [dir_watcher.py:finish():315] scan save: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-metadata.json wandb-metadata.json
+2021-02-04 10:41:25,331 DEBUG   Thread-14 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:41:25,334 DEBUG   Thread-15 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:41:25,334 INFO    SenderThread:8557 [dir_watcher.py:finish():315] scan save: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log output.log
+2021-02-04 10:41:25,338 DEBUG   Thread-16 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 10:41:25,339 INFO    SenderThread:8557 [dir_watcher.py:finish():315] scan save: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/media/graph/graph_2_summary_e69b82ca.graph.json media/graph/graph_2_summary_e69b82ca.graph.json
+2021-02-04 10:41:25,339 INFO    SenderThread:8557 [sender.py:send_request_defer():248] send defer: 5
+2021-02-04 10:41:25,340 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:25,340 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 5
+2021-02-04 10:41:25,340 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:25,340 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:25,340 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 5
+2021-02-04 10:41:25,340 INFO    SenderThread:8557 [file_pusher.py:finish():176] shutting down file pusher
+2021-02-04 10:41:25,341 INFO    SenderThread:8557 [sender.py:send_request_defer():248] send defer: 6
+2021-02-04 10:41:25,341 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:25,341 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 6
+2021-02-04 10:41:25,341 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:25,342 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:25,342 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 6
+2021-02-04 10:41:25,460 DEBUG   Thread-15 :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:41:25,463 DEBUG   Thread-15 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-04 10:41:25,464 DEBUG   Thread-14 :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:41:25,467 DEBUG   Thread-16 :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:41:25,470 DEBUG   Thread-14 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-04 10:41:25,471 DEBUG   Thread-13 :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-04 10:41:25,478 DEBUG   Thread-13 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-04 10:41:25,481 DEBUG   Thread-16 :8557 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-04 10:41:25,606 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:25,702 DEBUG   Thread-5  :8557 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/file_stream HTTP/1.1" 200 None
+2021-02-04 10:41:25,703 INFO    SenderThread:8557 [sender.py:send_request_defer():248] send defer: 7
+2021-02-04 10:41:25,704 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:25,704 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 7
+2021-02-04 10:41:25,704 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:25,705 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:25,705 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 7
+2021-02-04 10:41:25,705 INFO    SenderThread:8557 [sender.py:send_request_defer():248] send defer: 8
+2021-02-04 10:41:25,705 DEBUG   SenderThread:8557 [sender.py:send():117] send: final
+2021-02-04 10:41:25,706 DEBUG   SenderThread:8557 [sender.py:send():117] send: footer
+2021-02-04 10:41:25,706 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: defer
+2021-02-04 10:41:25,706 INFO    HandlerThread:8557 [handler.py:handle_request_defer():107] handle defer: 8
+2021-02-04 10:41:25,707 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:25,707 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: defer
+2021-02-04 10:41:25,707 INFO    SenderThread:8557 [sender.py:send_request_defer():212] handle sender defer: 8
+2021-02-04 10:41:25,722 DEBUG   Thread-13 :8557 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/config.yaml?Expires=1612521685&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=GBXA4OqrkXevJ0uOakJFfq4rHWyTmNryEtdsJFWQwamaPlXU3S7L%2BOseH21dJkg9wEUPZQ%2F2KCRF01BBmJVLwwVuL9pbE9RyOsCYneodoDm6pqWcigPDL1wnXAeTr3F9DG7lAmwHpu%2BsPzcWzRX71x8wJjtjegSDc7oRdDMKtCj6m4h77qSlJ1JXCNdehT10eK0ptUIFg6lCyXenvyPW%2FywTideVTT5SMBWDhK6VpYb58lHZthCfPzuUpbgoPi13n7uwB6tCu8KxovvzMluGtb2dhZd6JqyftQOokTlksxzPQ5w1r7fuYBdjFYq68TmWR6svPT%2B3tW7%2Fkrga1GZSJA%3D%3D HTTP/1.1" 200 0
+2021-02-04 10:41:25,723 INFO    Thread-13 :8557 [upload_job.py:push():133] Uploaded file /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/config.yaml
+2021-02-04 10:41:25,734 DEBUG   Thread-14 :8557 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/wandb-summary.json?Expires=1612521685&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=cTDCgNfwI5Hw%2BvUPD0%2BvZhDG1olIMq0eb6PAOl7AMOAopt6vukqe3Qn0%2BCQvTpZfVBLZABcg%2BDkwdwYE6hqK2I7cEpMvvk%2BDZrHi51D22gkIKaoRyF%2Bfrzz1VGw9RWlEQAcPDyQEj9eQzHwuj%2FOqG0E2DNYVoB1SJRhAjCrPzileRVL5KnBmPIXWGCZuHy80rR5yrHnRMhYbAR1WcVxbF9fOI%2FvnaVmcSQwUttakQ8PXVBZcAbDI62oBLmLRMRnVGa%2FGvoAbRRIyPGA2ou17EJu%2Brnn6xWM%2FaLHGYkBGifPCfMfY%2FTyCssLVC763h6Y0OAHyvcVNl1m1s0tAwSld6g%3D%3D HTTP/1.1" 200 0
+2021-02-04 10:41:25,736 INFO    Thread-14 :8557 [upload_job.py:push():133] Uploaded file /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/wandb-summary.json
+2021-02-04 10:41:25,751 DEBUG   Thread-15 :8557 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/requirements.txt?Expires=1612521685&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=ULK1xD2nwvB3eNa3z0jFTDkQDGWA8WbnZTnGL3A4pAzvXi9UtOUCvwNibmSXzWj5sqLtuGx4SadxE3w12wN37jxQ4i%2BVZNbRRhEBhurkW4U9XwWfZfKhIepWurLyrPf%2FiUUKFDp2728k4sMdPn4bm9F4ZRsrNq4GTNyHRegMpAuwxH24fo%2B6Yh4ccn4XPSMi5atiA3aNX0PXyFS6EzL0uEOjG%2FLX0hmzqpU%2BYekzZHB9J0nNphMCro7oOD%2BEFO%2FAFhbej7SRXo0Cwx9L8RWZglLxleyQ8e4znmQIRjSgN4%2BKhZkaSJkFU2kcd4DgDQiCkrbo%2BW10jYqsJgm3NHY1UQ%3D%3D HTTP/1.1" 200 0
+2021-02-04 10:41:25,752 INFO    Thread-15 :8557 [upload_job.py:push():133] Uploaded file /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/requirements.txt
+2021-02-04 10:41:25,808 DEBUG   Thread-16 :8557 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738/output.log?Expires=1612521685&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=BmMT65tUHPeQT7ZudV4VLXNIWs25RzhtrqOm4nvOcdwRVV8DXhBIB3e%2BjSNsm%2FlvugPVz6MAdsZ%2Fo96OgEw4JDFRNDNcm3ROemsZEBPrXUHPCsdpr2MWut6KKq4H28ea0Ahatqs1fHefrNfONKu7kOXT1a8nPMhd7oayaPyyTezxzymQ43u9s%2BA0Hb29b0K6G9kysj8spkJ0xuhXesgU6pf31Vf97mvgwfzOLdKeFJCZgOATPwrVikgDYTecme5H9TvNEicf9IGa0hcp5L2PlXTJ1hVpDjXoSpej0e2%2F9RkJNZOGSlaPjqF9eZwOKxYPqyTGXYW66cRvf6z2zsCaXQ%3D%3D HTTP/1.1" 200 0
+2021-02-04 10:41:25,809 INFO    Thread-16 :8557 [upload_job.py:push():133] Uploaded file /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/files/output.log
+2021-02-04 10:41:26,606 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: poll_exit
+2021-02-04 10:41:26,606 DEBUG   SenderThread:8557 [sender.py:send():117] send: request
+2021-02-04 10:41:26,606 DEBUG   SenderThread:8557 [sender.py:send_request():126] send_request: poll_exit
+2021-02-04 10:41:26,606 INFO    SenderThread:8557 [file_pusher.py:join():181] waiting for file pusher
+2021-02-04 10:41:26,609 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: get_summary
+2021-02-04 10:41:26,613 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: sampled_history
+2021-02-04 10:41:26,614 DEBUG   HandlerThread:8557 [handler.py:handle_request():93] handle_request: shutdown
+2021-02-04 10:41:26,614 INFO    HandlerThread:8557 [handler.py:finish():312] shutting down handler
+2021-02-04 10:41:26,706 INFO    WriterThread:8557 [datastore.py:close():258] close: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104035-19n99738/run-19n99738.wandb
+2021-02-04 10:41:27,607 INFO    SenderThread:8557 [sender.py:finish():766] shutting down sender
+2021-02-04 10:41:27,607 INFO    SenderThread:8557 [file_pusher.py:finish():176] shutting down file pusher
+2021-02-04 10:41:27,607 INFO    SenderThread:8557 [file_pusher.py:join():181] waiting for file pusher
+2021-02-04 10:41:27,608 INFO    MainThread:8557 [internal.py:handle_exit():156] Internal process exited

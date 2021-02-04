@@ -1,0 +1,33 @@
+Starting Epoch 0
+	 [Batch 50 / 782] Train Loss: 2.193 	 Train Acc: 0.192
+	 [Batch 100 / 782] Train Loss: 2.041 	 Train Acc: 0.253
+	 [Batch 150 / 782] Train Loss: 1.960 	 Train Acc: 0.282
+	 [Batch 200 / 782] Train Loss: 1.900 	 Train Acc: 0.304
+	 [Batch 250 / 782] Train Loss: 1.854 	 Train Acc: 0.320
+	 [Batch 300 / 782] Train Loss: 1.816 	 Train Acc: 0.334
+	 [Batch 350 / 782] Train Loss: 1.784 	 Train Acc: 0.346
+	 [Batch 400 / 782] Train Loss: 1.755 	 Train Acc: 0.356
+	 [Batch 450 / 782] Train Loss: 1.731 	 Train Acc: 0.362
+Exception in thread Thread-110:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/pin_memory.py", line 21, in _pin_memory_loop
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 113, in get
+    return _ForkingPickler.loads(res)
+  File "/usr/local/lib/python3.6/dist-packages/torch/multiprocessing/reductions.py", line 284, in rebuild_storage_fd
+    fd = df.detach()
+  File "/usr/lib/python3.6/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/usr/lib/python3.6/multiprocessing/resource_sharer.py", line 87, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 487, in Client
+    c = SocketClient(address)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 614, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+
+Number of trainable parameters of the current model  6666

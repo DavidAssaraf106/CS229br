@@ -1,0 +1,49 @@
+2021-02-04 10:41:24,447 INFO    MainThread:4024 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-04 10:41:24,447 INFO    MainThread:4024 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-04 10:41:24,447 INFO    MainThread:4024 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-04 10:41:24,447 INFO    MainThread:4024 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f26011646a0>
+2021-02-04 10:41:24,447 INFO    MainThread:4024 [wandb_init.py:_log_setup():318] Logging user logs to /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104124-1wj14u5m/logs/debug.log
+2021-02-04 10:41:24,448 INFO    MainThread:4024 [wandb_init.py:_log_setup():319] Logging internal logs to /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104124-1wj14u5m/logs/debug-internal.log
+2021-02-04 10:41:24,449 INFO    MainThread:4024 [wandb_run.py:finish():1056] finishing run davidassaraf/CS229br_hw0_memorizing_NN_c=4/19n99738
+2021-02-04 10:41:24,449 INFO    MainThread:4024 [wandb_run.py:_atexit_cleanup():1369] got exitcode: 0
+2021-02-04 10:41:24,449 INFO    MainThread:4024 [wandb_run.py:_restore():1341] restore
+2021-02-04 10:41:24,598 INFO    MainThread:4024 [wandb_run.py:_wait_for_finish():1492] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 4549
+  total_bytes: 4549
+}
+
+2021-02-04 10:41:26,607 INFO    MainThread:4024 [wandb_run.py:_wait_for_finish():1492] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 47127
+  total_bytes: 47127
+}
+
+2021-02-04 10:41:27,730 INFO    MainThread:4024 [wandb_run.py:_show_summary():1647] rendering summary
+2021-02-04 10:41:27,732 INFO    MainThread:4024 [wandb_run.py:_show_history():1685] rendering history
+2021-02-04 10:41:27,733 INFO    MainThread:4024 [wandb_run.py:_show_files():1714] logging synced files
+2021-02-04 10:41:28,710 INFO    MainThread:4024 [wandb_run.py:_console_start():1399] atexit reg
+2021-02-04 10:41:28,711 INFO    MainThread:4024 [wandb_run.py:_redirect():1262] redirect: SettingsConsole.WRAP
+2021-02-04 10:41:28,711 INFO    MainThread:4024 [wandb_run.py:_redirect():1297] Wrapping output streams.
+2021-02-04 10:41:28,711 INFO    MainThread:4024 [wandb_run.py:_redirect():1313] Redirects installed.
+2021-02-04 10:41:28,711 INFO    MainThread:4024 [wandb_watch.py:watch():39] Watching
+2021-02-04 10:42:25,705 INFO    MainThread:4024 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-04 10:43:05,704 INFO    MainThread:4024 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-04 10:43:05,723 INFO    MainThread:4024 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-04 10:43:05,723 INFO    MainThread:4024 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-04 10:43:05,723 INFO    MainThread:4024 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-04 10:43:05,723 INFO    MainThread:4024 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f26011646a0>
+2021-02-04 10:43:05,723 INFO    MainThread:4024 [wandb_init.py:_log_setup():318] Logging user logs to /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104305-3sh4lgcf/logs/debug.log
+2021-02-04 10:43:05,723 INFO    MainThread:4024 [wandb_init.py:_log_setup():319] Logging internal logs to /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_104305-3sh4lgcf/logs/debug-internal.log
+2021-02-04 10:43:05,725 INFO    MainThread:4024 [wandb_run.py:finish():1056] finishing run davidassaraf/CS229br_hw0_memorizing_NN_c=4/1wj14u5m
+2021-02-04 10:43:05,725 INFO    MainThread:4024 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-02-04 10:43:05,725 INFO    MainThread:4024 [jupyter.py:save_history():208] not saving jupyter history

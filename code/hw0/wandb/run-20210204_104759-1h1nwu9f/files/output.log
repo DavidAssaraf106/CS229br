@@ -1,0 +1,41 @@
+Number of trainable parameters of the current model  1558026
+Starting Epoch 0
+	 [Batch 50 / 782] Train Loss: 5.658 	 Train Acc: 0.153
+	 [Batch 100 / 782] Train Loss: 3.927 	 Train Acc: 0.174
+	 [Batch 150 / 782] Train Loss: 3.320 	 Train Acc: 0.191
+	 [Batch 200 / 782] Train Loss: 2.983 	 Train Acc: 0.209
+	 [Batch 250 / 782] Train Loss: 2.778 	 Train Acc: 0.223
+	 [Batch 300 / 782] Train Loss: 2.624 	 Train Acc: 0.237
+	 [Batch 350 / 782] Train Loss: 2.508 	 Train Acc: 0.249
+	 [Batch 400 / 782] Train Loss: 2.411 	 Train Acc: 0.262
+	 [Batch 450 / 782] Train Loss: 2.326 	 Train Acc: 0.276
+	 [Batch 500 / 782] Train Loss: 2.259 	 Train Acc: 0.286
+	 [Batch 550 / 782] Train Loss: 2.195 	 Train Acc: 0.299
+	 [Batch 600 / 782] Train Loss: 2.144 	 Train Acc: 0.309
+	 [Batch 650 / 782] Train Loss: 2.097 	 Train Acc: 0.319
+	 [Batch 700 / 782] Train Loss: 2.052 	 Train Acc: 0.330
+	 [Batch 750 / 782] Train Loss: 2.013 	 Train Acc: 0.338
+Epoch 0:	 Train Loss: 1.988 	 Train Acc: 0.344	 Test Acc: 0.352
+Starting Epoch 1
+	 [Batch 50 / 782] Train Loss: 1.354 	 Train Acc: 0.521
+	 [Batch 100 / 782] Train Loss: 1.343 	 Train Acc: 0.515
+	 [Batch 150 / 782] Train Loss: 1.323 	 Train Acc: 0.521
+	 [Batch 200 / 782] Train Loss: 1.304 	 Train Acc: 0.530
+	 [Batch 250 / 782] Train Loss: 1.305 	 Train Acc: 0.531
+	 [Batch 300 / 782] Train Loss: 1.288 	 Train Acc: 0.537
+	 [Batch 350 / 782] Train Loss: 1.278 	 Train Acc: 0.540
+	 [Batch 400 / 782] Train Loss: 1.266 	 Train Acc: 0.545
+	 [Batch 450 / 782] Train Loss: 1.255 	 Train Acc: 0.549
+	 [Batch 500 / 782] Train Loss: 1.242 	 Train Acc: 0.554
+	 [Batch 550 / 782] Train Loss: 1.231 	 Train Acc: 0.558
+	 [Batch 600 / 782] Train Loss: 1.219 	 Train Acc: 0.563
+	 [Batch 650 / 782] Train Loss: 1.212 	 Train Acc: 0.566
+	 [Batch 700 / 782] Train Loss: 1.201 	 Train Acc: 0.571
+	 [Batch 750 / 782] Train Loss: 1.189 	 Train Acc: 0.576
+Epoch 1:	 Train Loss: 1.184 	 Train Acc: 0.577	 Test Acc: 0.205
+Starting Epoch 2
+	 [Batch 50 / 782] Train Loss: 1.063 	 Train Acc: 0.635
+	 [Batch 100 / 782] Train Loss: 1.032 	 Train Acc: 0.643
+	 [Batch 150 / 782] Train Loss: 0.997 	 Train Acc: 0.654
+	 [Batch 200 / 782] Train Loss: 0.992 	 Train Acc: 0.656
+	 [Batch 250 / 782] Train Loss: 0.979 	 Train Acc: 0.661

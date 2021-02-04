@@ -1,0 +1,30 @@
+Starting Epoch 0
+Epoch 0:	 Train Loss: 2.093 	 Train Acc: 0.363	 Test Acc: 0.353
+Starting Epoch 1
+Epoch 1:	 Train Loss: 2.004 	 Train Acc: 0.381	 Test Acc: 0.363
+Starting Epoch 2
+Epoch 2:	 Train Loss: 1.986 	 Train Acc: 0.389	 Test Acc: 0.366
+Starting Epoch 3
+Epoch 3:	 Train Loss: 1.975 	 Train Acc: 0.394	 Test Acc: 0.356
+Starting Epoch 4
+Epoch 4:	 Train Loss: 1.967 	 Train Acc: 0.397	 Test Acc: 0.371
+Starting Epoch 5
+Epoch 5:	 Train Loss: 1.961 	 Train Acc: 0.401	 Test Acc: 0.379
+Starting Epoch 6
+Epoch 6:	 Train Loss: 1.956 	 Train Acc: 0.401	 Test Acc: 0.370
+Starting Epoch 7
+Epoch 7:	 Train Loss: 1.952 	 Train Acc: 0.402	 Test Acc: 0.377
+Starting Epoch 8
+Epoch 8:	 Train Loss: 1.949 	 Train Acc: 0.402	 Test Acc: 0.365
+Starting Epoch 9
+Epoch 9:	 Train Loss: 1.945 	 Train Acc: 0.404	 Test Acc: 0.369
+Starting Epoch 10
+Epoch 10:	 Train Loss: 1.943 	 Train Acc: 0.404	 Test Acc: 0.372
+Starting Epoch 11
+Epoch 11:	 Train Loss: 1.940 	 Train Acc: 0.407	 Test Acc: 0.381
+Starting Epoch 12
+Epoch 12:	 Train Loss: 1.938 	 Train Acc: 0.405	 Test Acc: 0.355
+Starting Epoch 13
+Epoch 13:	 Train Loss: 1.936 	 Train Acc: 0.406	 Test Acc: 0.373
+Starting Epoch 14
+Number of trainable parameters of the current model  6666

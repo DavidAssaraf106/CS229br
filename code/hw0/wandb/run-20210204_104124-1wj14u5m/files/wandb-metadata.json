@@ -1,0 +1,26 @@
+{
+    "os": "Linux-4.15.0-72-generic-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.8",
+    "heartbeatAt": "2021-02-04T10:41:28.678578",
+    "startedAt": "2021-02-04T10:41:24.445548",
+    "docker": null,
+    "gpu": "Quadro M4000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": "10.0.130",
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-97a474b5-983c-4207-8112-75904d9a3f44.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/boazbk/mltheoryseminar.git",
+        "commit": "0d83ee268f9c9573874aaec593c0e49501fb0a4e"
+    },
+    "email": "david.assaraf@polytechnique.edu",
+    "root": "/notebooks/mltheoryseminar",
+    "host": "b36c27d3c7c2",
+    "username": "root",
+    "executable": "/usr/local/bin/python"
+}

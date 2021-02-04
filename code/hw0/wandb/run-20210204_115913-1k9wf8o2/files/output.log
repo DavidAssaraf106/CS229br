@@ -1,0 +1,8 @@
+Starting Epoch 0
+Epoch 0:	 Train Loss: 1.618 	 Train Acc: 0.408	 Test Acc: 0.190
+Starting Epoch 1
+Epoch 1:	 Train Loss: 1.253 	 Train Acc: 0.550	 Test Acc: 0.339
+Starting Epoch 2
+Epoch 2:	 Train Loss: 1.128 	 Train Acc: 0.598	 Test Acc: 0.342
+Starting Epoch 3
+Number of trainable parameters of the current model  6666

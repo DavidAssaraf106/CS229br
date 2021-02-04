@@ -1,0 +1,9 @@
+Starting Epoch 0
+Epoch 0:	 Train Loss: 1.554 	 Train Acc: 0.431	 Test Acc: 0.410
+Starting Epoch 1
+Epoch 1:	 Train Loss: 1.217 	 Train Acc: 0.567	 Test Acc: 0.344
+Starting Epoch 2
+Epoch 2:	 Train Loss: 1.109 	 Train Acc: 0.606	 Test Acc: 0.422
+Starting Epoch 3
+Epoch 3:	 Train Loss: 1.044 	 Train Acc: 0.633	 Test Acc: 0.471
+Starting Epoch 4

@@ -1,0 +1,61 @@
+2021-02-04 11:04:42,648 INFO    MainThread:12270 [internal.py:wandb_internal():81] W&B internal server running at pid: 12270
+2021-02-04 11:04:42,651 DEBUG   HandlerThread:12270 [handler.py:handle_request():93] handle_request: check_version
+2021-02-04 11:04:42,651 INFO    WriterThread:12270 [datastore.py:open_for_write():77] open: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_110441-1p7qhyyg/run-1p7qhyyg.wandb
+2021-02-04 11:04:42,652 DEBUG   SenderThread:12270 [sender.py:send():117] send: header
+2021-02-04 11:04:42,653 DEBUG   SenderThread:12270 [sender.py:send():117] send: request
+2021-02-04 11:04:42,653 DEBUG   SenderThread:12270 [sender.py:send_request():126] send_request: check_version
+2021-02-04 11:04:42,656 DEBUG   Thread-4  :12270 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): pypi.org:443
+2021-02-04 11:04:42,676 DEBUG   Thread-4  :12270 [connectionpool.py:_make_request():461] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 53641
+2021-02-04 11:04:42,684 DEBUG   SenderThread:12270 [sender.py:send():117] send: run
+2021-02-04 11:04:42,688 DEBUG   SenderThread:12270 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/notebooks/mltheoryseminar, universal_newlines=False, shell=None, istream=<valid stream>)
+2021-02-04 11:04:42,699 DEBUG   SenderThread:12270 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-04 11:04:42,816 DEBUG   SenderThread:12270 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 400 None
+2021-02-04 11:04:42,818 ERROR   SenderThread:12270 [internal_api.py:execute():126] 400 response executing GraphQL.
+2021-02-04 11:04:42,818 ERROR   SenderThread:12270 [internal_api.py:execute():127] {"errors":[{"message":"invalid project name CS229br/hw0/memorizing_NN/Underparametrized, cannot contain character \"/\"","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-02-04 11:04:43,686 INFO    HandlerThread:12270 [handler.py:finish():312] shutting down handler
+2021-02-04 11:04:43,686 INFO    WriterThread:12270 [datastore.py:close():258] close: /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_110441-1p7qhyyg/run-1p7qhyyg.wandb
+2021-02-04 11:04:43,687 ERROR   MainThread:12270 [internal.py:wandb_internal():147] Thread SenderThread:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/internal_api.py", line 969, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/old/retry.py", line 96, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/internal_api.py", line 129, in execute
+    six.reraise(*sys.exc_info())
+  File "/usr/local/lib/python3.6/dist-packages/six.py", line 703, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/internal_api.py", line 123, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/vendor/gql-0.2.0/gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/vendor/gql-0.2.0/gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/usr/local/lib/python3.6/dist-packages/requests/models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/internal_util.py", line 54, in run
+    self._run()
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/internal_util.py", line 95, in _run
+    self._process(record)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/internal.py", line 270, in _process
+    self._sm.send(record)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/sender.py", line 119, in send
+    send_handler(record)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/sender.py", line 485, in send_run
+    self._init_run(run, config_value_dict)
+  File "/usr/local/lib/python3.6/dist-packages/wandb/sdk/internal/sender.py", line 521, in _init_run
+    commit=repo.last_commit,
+  File "/usr/local/lib/python3.6/dist-packages/wandb/apis/normalize.py", line 26, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.error.CommError: <Response [400]>
+2021-02-04 11:04:43,711 DEBUG   raven-sentry.BackgroundWorker:12270 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): o151352.ingest.sentry.io:443
+2021-02-04 11:04:44,112 DEBUG   raven-sentry.BackgroundWorker:12270 [connectionpool.py:_make_request():461] https://o151352.ingest.sentry.io:443 "POST /api/5288891/store/ HTTP/1.1" 200 41
+2021-02-04 11:04:45,711 INFO    MainThread:12270 [internal.py:handle_exit():156] Internal process exited

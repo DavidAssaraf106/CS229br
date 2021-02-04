@@ -1,0 +1,233 @@
+Starting Epoch 0
+Epoch 0:	 Train Loss: 1.618 	 Train Acc: 0.403	 Test Acc: 0.398
+Starting Epoch 1
+Epoch 1:	 Train Loss: 1.310 	 Train Acc: 0.525	 Test Acc: 0.495
+Starting Epoch 2
+Epoch 2:	 Train Loss: 1.172 	 Train Acc: 0.579	 Test Acc: 0.421
+Starting Epoch 3
+Epoch 3:	 Train Loss: 1.093 	 Train Acc: 0.610	 Test Acc: 0.461
+Starting Epoch 4
+Epoch 4:	 Train Loss: 1.038 	 Train Acc: 0.631	 Test Acc: 0.528
+Starting Epoch 5
+Epoch 5:	 Train Loss: 1.003 	 Train Acc: 0.646	 Test Acc: 0.418
+Starting Epoch 6
+Epoch 6:	 Train Loss: 0.973 	 Train Acc: 0.655	 Test Acc: 0.569
+Starting Epoch 7
+Epoch 7:	 Train Loss: 0.953 	 Train Acc: 0.662	 Test Acc: 0.604
+Starting Epoch 8
+Epoch 8:	 Train Loss: 0.935 	 Train Acc: 0.669	 Test Acc: 0.507
+Starting Epoch 9
+Epoch 9:	 Train Loss: 0.920 	 Train Acc: 0.675	 Test Acc: 0.437
+Starting Epoch 10
+Epoch 10:	 Train Loss: 0.912 	 Train Acc: 0.679	 Test Acc: 0.512
+Starting Epoch 11
+Epoch 11:	 Train Loss: 0.900 	 Train Acc: 0.684	 Test Acc: 0.605
+Starting Epoch 12
+Epoch 12:	 Train Loss: 0.886 	 Train Acc: 0.689	 Test Acc: 0.606
+Starting Epoch 13
+Epoch 13:	 Train Loss: 0.881 	 Train Acc: 0.690	 Test Acc: 0.601
+Starting Epoch 14
+Epoch 14:	 Train Loss: 0.868 	 Train Acc: 0.696	 Test Acc: 0.610
+Starting Epoch 15
+Epoch 15:	 Train Loss: 0.862 	 Train Acc: 0.697	 Test Acc: 0.645
+Starting Epoch 16
+Epoch 16:	 Train Loss: 0.856 	 Train Acc: 0.702	 Test Acc: 0.594
+Starting Epoch 17
+Epoch 17:	 Train Loss: 0.849 	 Train Acc: 0.703	 Test Acc: 0.561
+Starting Epoch 18
+Epoch 18:	 Train Loss: 0.844 	 Train Acc: 0.702	 Test Acc: 0.663
+Starting Epoch 19
+Epoch 19:	 Train Loss: 0.839 	 Train Acc: 0.705	 Test Acc: 0.664
+Starting Epoch 20
+Epoch 20:	 Train Loss: 0.832 	 Train Acc: 0.709	 Test Acc: 0.478
+Starting Epoch 21
+Epoch 21:	 Train Loss: 0.832 	 Train Acc: 0.708	 Test Acc: 0.639
+Starting Epoch 22
+Epoch 22:	 Train Loss: 0.824 	 Train Acc: 0.711	 Test Acc: 0.561
+Starting Epoch 23
+Epoch 23:	 Train Loss: 0.820 	 Train Acc: 0.714	 Test Acc: 0.628
+Starting Epoch 24
+Epoch 24:	 Train Loss: 0.815 	 Train Acc: 0.714	 Test Acc: 0.639
+Starting Epoch 25
+Epoch 25:	 Train Loss: 0.810 	 Train Acc: 0.715	 Test Acc: 0.647
+Starting Epoch 26
+Epoch 26:	 Train Loss: 0.807 	 Train Acc: 0.717	 Test Acc: 0.620
+Starting Epoch 27
+Epoch 27:	 Train Loss: 0.807 	 Train Acc: 0.718	 Test Acc: 0.661
+Starting Epoch 28
+Epoch 28:	 Train Loss: 0.801 	 Train Acc: 0.720	 Test Acc: 0.641
+Starting Epoch 29
+Epoch 29:	 Train Loss: 0.801 	 Train Acc: 0.721	 Test Acc: 0.644
+Starting Epoch 30
+Epoch 30:	 Train Loss: 0.797 	 Train Acc: 0.722	 Test Acc: 0.621
+Starting Epoch 31
+Epoch 31:	 Train Loss: 0.793 	 Train Acc: 0.720	 Test Acc: 0.612
+Starting Epoch 32
+Epoch 32:	 Train Loss: 0.789 	 Train Acc: 0.725	 Test Acc: 0.671
+Starting Epoch 33
+Epoch 33:	 Train Loss: 0.787 	 Train Acc: 0.727	 Test Acc: 0.641
+Starting Epoch 34
+Epoch 34:	 Train Loss: 0.783 	 Train Acc: 0.725	 Test Acc: 0.670
+Starting Epoch 35
+Epoch 35:	 Train Loss: 0.778 	 Train Acc: 0.729	 Test Acc: 0.677
+Starting Epoch 36
+Epoch 36:	 Train Loss: 0.778 	 Train Acc: 0.728	 Test Acc: 0.590
+Starting Epoch 37
+Epoch 37:	 Train Loss: 0.777 	 Train Acc: 0.728	 Test Acc: 0.639
+Starting Epoch 38
+Epoch 38:	 Train Loss: 0.776 	 Train Acc: 0.728	 Test Acc: 0.622
+Starting Epoch 39
+Epoch 39:	 Train Loss: 0.771 	 Train Acc: 0.729	 Test Acc: 0.683
+Starting Epoch 40
+Epoch 40:	 Train Loss: 0.771 	 Train Acc: 0.728	 Test Acc: 0.642
+Starting Epoch 41
+Epoch 41:	 Train Loss: 0.771 	 Train Acc: 0.731	 Test Acc: 0.685
+Starting Epoch 42
+Epoch 42:	 Train Loss: 0.767 	 Train Acc: 0.731	 Test Acc: 0.618
+Starting Epoch 43
+Epoch 43:	 Train Loss: 0.765 	 Train Acc: 0.731	 Test Acc: 0.631
+Starting Epoch 44
+Epoch 44:	 Train Loss: 0.760 	 Train Acc: 0.734	 Test Acc: 0.670
+Starting Epoch 45
+Epoch 45:	 Train Loss: 0.758 	 Train Acc: 0.734	 Test Acc: 0.641
+Starting Epoch 46
+Epoch 46:	 Train Loss: 0.761 	 Train Acc: 0.733	 Test Acc: 0.642
+Starting Epoch 47
+Epoch 47:	 Train Loss: 0.757 	 Train Acc: 0.735	 Test Acc: 0.660
+Starting Epoch 48
+Epoch 48:	 Train Loss: 0.755 	 Train Acc: 0.735	 Test Acc: 0.656
+Starting Epoch 49
+Epoch 49:	 Train Loss: 0.754 	 Train Acc: 0.734	 Test Acc: 0.671
+Starting Epoch 50
+Epoch 50:	 Train Loss: 0.754 	 Train Acc: 0.736	 Test Acc: 0.661
+Starting Epoch 51
+Epoch 51:	 Train Loss: 0.754 	 Train Acc: 0.737	 Test Acc: 0.678
+Starting Epoch 52
+Epoch 52:	 Train Loss: 0.750 	 Train Acc: 0.737	 Test Acc: 0.625
+Starting Epoch 53
+Epoch 53:	 Train Loss: 0.750 	 Train Acc: 0.737	 Test Acc: 0.663
+Starting Epoch 54
+Epoch 54:	 Train Loss: 0.748 	 Train Acc: 0.737	 Test Acc: 0.668
+Starting Epoch 55
+Epoch 55:	 Train Loss: 0.746 	 Train Acc: 0.738	 Test Acc: 0.651
+Starting Epoch 56
+Epoch 56:	 Train Loss: 0.748 	 Train Acc: 0.738	 Test Acc: 0.642
+Starting Epoch 57
+Epoch 57:	 Train Loss: 0.742 	 Train Acc: 0.740	 Test Acc: 0.675
+Starting Epoch 58
+Epoch 58:	 Train Loss: 0.743 	 Train Acc: 0.738	 Test Acc: 0.657
+Starting Epoch 59
+Epoch 59:	 Train Loss: 0.742 	 Train Acc: 0.740	 Test Acc: 0.645
+Starting Epoch 60
+Epoch 60:	 Train Loss: 0.741 	 Train Acc: 0.740	 Test Acc: 0.662
+Starting Epoch 61
+Epoch 61:	 Train Loss: 0.742 	 Train Acc: 0.741	 Test Acc: 0.674
+Starting Epoch 62
+Epoch 62:	 Train Loss: 0.742 	 Train Acc: 0.741	 Test Acc: 0.676
+Starting Epoch 63
+Epoch 63:	 Train Loss: 0.738 	 Train Acc: 0.740	 Test Acc: 0.655
+Starting Epoch 64
+Epoch 64:	 Train Loss: 0.740 	 Train Acc: 0.739	 Test Acc: 0.669
+Starting Epoch 65
+Epoch 65:	 Train Loss: 0.738 	 Train Acc: 0.738	 Test Acc: 0.685
+Starting Epoch 66
+Epoch 66:	 Train Loss: 0.734 	 Train Acc: 0.742	 Test Acc: 0.617
+Starting Epoch 67
+Epoch 67:	 Train Loss: 0.733 	 Train Acc: 0.742	 Test Acc: 0.676
+Starting Epoch 68
+Epoch 68:	 Train Loss: 0.735 	 Train Acc: 0.742	 Test Acc: 0.663
+Starting Epoch 69
+Epoch 69:	 Train Loss: 0.734 	 Train Acc: 0.741	 Test Acc: 0.655
+Starting Epoch 70
+Epoch 70:	 Train Loss: 0.735 	 Train Acc: 0.743	 Test Acc: 0.644
+Starting Epoch 71
+Epoch 71:	 Train Loss: 0.731 	 Train Acc: 0.743	 Test Acc: 0.685
+Starting Epoch 72
+Epoch 72:	 Train Loss: 0.728 	 Train Acc: 0.744	 Test Acc: 0.651
+Starting Epoch 73
+Epoch 73:	 Train Loss: 0.730 	 Train Acc: 0.744	 Test Acc: 0.575
+Starting Epoch 74
+Epoch 74:	 Train Loss: 0.730 	 Train Acc: 0.744	 Test Acc: 0.681
+Starting Epoch 75
+Epoch 75:	 Train Loss: 0.725 	 Train Acc: 0.745	 Test Acc: 0.642
+Starting Epoch 76
+Epoch 76:	 Train Loss: 0.728 	 Train Acc: 0.744	 Test Acc: 0.660
+Starting Epoch 77
+Epoch 77:	 Train Loss: 0.727 	 Train Acc: 0.745	 Test Acc: 0.686
+Starting Epoch 78
+Epoch 78:	 Train Loss: 0.725 	 Train Acc: 0.744	 Test Acc: 0.659
+Starting Epoch 79
+Epoch 79:	 Train Loss: 0.727 	 Train Acc: 0.743	 Test Acc: 0.675
+Starting Epoch 80
+Epoch 80:	 Train Loss: 0.725 	 Train Acc: 0.744	 Test Acc: 0.662
+Starting Epoch 81
+Epoch 81:	 Train Loss: 0.723 	 Train Acc: 0.747	 Test Acc: 0.657
+Starting Epoch 82
+Epoch 82:	 Train Loss: 0.724 	 Train Acc: 0.744	 Test Acc: 0.672
+Starting Epoch 83
+Epoch 83:	 Train Loss: 0.722 	 Train Acc: 0.746	 Test Acc: 0.678
+Starting Epoch 84
+Epoch 84:	 Train Loss: 0.722 	 Train Acc: 0.746	 Test Acc: 0.680
+Starting Epoch 85
+Epoch 85:	 Train Loss: 0.722 	 Train Acc: 0.746	 Test Acc: 0.628
+Starting Epoch 86
+Epoch 86:	 Train Loss: 0.723 	 Train Acc: 0.745	 Test Acc: 0.666
+Starting Epoch 87
+Epoch 87:	 Train Loss: 0.719 	 Train Acc: 0.747	 Test Acc: 0.651
+Starting Epoch 88
+Epoch 88:	 Train Loss: 0.718 	 Train Acc: 0.748	 Test Acc: 0.683
+Starting Epoch 89
+Epoch 89:	 Train Loss: 0.719 	 Train Acc: 0.745	 Test Acc: 0.663
+Starting Epoch 90
+Epoch 90:	 Train Loss: 0.718 	 Train Acc: 0.746	 Test Acc: 0.656
+Starting Epoch 91
+Epoch 91:	 Train Loss: 0.718 	 Train Acc: 0.748	 Test Acc: 0.676
+Starting Epoch 92
+Epoch 92:	 Train Loss: 0.718 	 Train Acc: 0.749	 Test Acc: 0.685
+Starting Epoch 93
+Epoch 93:	 Train Loss: 0.717 	 Train Acc: 0.748	 Test Acc: 0.689
+Starting Epoch 94
+Epoch 94:	 Train Loss: 0.716 	 Train Acc: 0.747	 Test Acc: 0.676
+Starting Epoch 95
+Epoch 95:	 Train Loss: 0.716 	 Train Acc: 0.748	 Test Acc: 0.682
+Starting Epoch 96
+Epoch 96:	 Train Loss: 0.714 	 Train Acc: 0.747	 Test Acc: 0.678
+Starting Epoch 97
+Epoch 97:	 Train Loss: 0.714 	 Train Acc: 0.747	 Test Acc: 0.679
+Starting Epoch 98
+Epoch 98:	 Train Loss: 0.713 	 Train Acc: 0.748	 Test Acc: 0.663
+Starting Epoch 99
+Epoch 99:	 Train Loss: 0.712 	 Train Acc: 0.750	 Test Acc: 0.695
+Starting Epoch 100
+Epoch 100:	 Train Loss: 0.710 	 Train Acc: 0.750	 Test Acc: 0.658
+Starting Epoch 101
+Epoch 101:	 Train Loss: 0.711 	 Train Acc: 0.750	 Test Acc: 0.677
+Starting Epoch 102
+Epoch 102:	 Train Loss: 0.713 	 Train Acc: 0.749	 Test Acc: 0.679
+Starting Epoch 103
+Epoch 103:	 Train Loss: 0.710 	 Train Acc: 0.750	 Test Acc: 0.652
+Starting Epoch 104
+Epoch 104:	 Train Loss: 0.712 	 Train Acc: 0.750	 Test Acc: 0.691
+Starting Epoch 105
+Epoch 105:	 Train Loss: 0.711 	 Train Acc: 0.750	 Test Acc: 0.655
+Starting Epoch 106
+Epoch 106:	 Train Loss: 0.709 	 Train Acc: 0.750	 Test Acc: 0.684
+Starting Epoch 107
+Epoch 107:	 Train Loss: 0.708 	 Train Acc: 0.751	 Test Acc: 0.668
+Starting Epoch 108
+Epoch 108:	 Train Loss: 0.709 	 Train Acc: 0.749	 Test Acc: 0.684
+Starting Epoch 109
+Epoch 109:	 Train Loss: 0.705 	 Train Acc: 0.751	 Test Acc: 0.688
+Starting Epoch 110
+Epoch 110:	 Train Loss: 0.708 	 Train Acc: 0.750	 Test Acc: 0.618
+Starting Epoch 111
+Epoch 111:	 Train Loss: 0.705 	 Train Acc: 0.751	 Test Acc: 0.667
+Starting Epoch 112
+Epoch 112:	 Train Loss: 0.708 	 Train Acc: 0.749	 Test Acc: 0.655
+Starting Epoch 113
+Epoch 113:	 Train Loss: 0.706 	 Train Acc: 0.751	 Test Acc: 0.623
+Starting Epoch 114
+Epoch 114:	 Train Loss: 0.708 	 Train Acc: 0.751	 Test Acc: 0.669
+Starting Epoch 115
+Epoch 115:	 Train Loss: 0.703 	 Train Acc: 0.752	 Test Acc: 0.680
+Starting Epoch 116
