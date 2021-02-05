@@ -1,0 +1,29 @@
+Starting Epoch 0
+Epoch 0:	 Train Loss: 1.922 	 Train Acc: 0.319	 Test Acc: 0.406
+Starting Epoch 1
+Epoch 1:	 Train Loss: 1.586 	 Train Acc: 0.440	 Test Acc: 0.474
+Starting Epoch 2
+Epoch 2:	 Train Loss: 1.434 	 Train Acc: 0.496	 Test Acc: 0.510
+Starting Epoch 3
+Exception in thread Thread-22:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/pin_memory.py", line 21, in _pin_memory_loop
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 113, in get
+    return _ForkingPickler.loads(res)
+  File "/usr/local/lib/python3.6/dist-packages/torch/multiprocessing/reductions.py", line 284, in rebuild_storage_fd
+    fd = df.detach()
+  File "/usr/lib/python3.6/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/usr/lib/python3.6/multiprocessing/resource_sharer.py", line 87, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 487, in Client
+    c = SocketClient(address)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 614, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+

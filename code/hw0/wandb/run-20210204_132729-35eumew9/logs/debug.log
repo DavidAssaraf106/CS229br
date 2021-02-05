@@ -1,0 +1,60 @@
+2021-02-04 13:27:29,858 INFO    MainThread:4163 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-04 13:27:29,858 INFO    MainThread:4163 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-04 13:27:29,858 INFO    MainThread:4163 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-04 13:27:29,858 INFO    MainThread:4163 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f204a9db208>
+2021-02-04 13:27:29,858 INFO    MainThread:4163 [wandb_init.py:_log_setup():318] Logging user logs to /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_132729-35eumew9/logs/debug.log
+2021-02-04 13:27:29,858 INFO    MainThread:4163 [wandb_init.py:_log_setup():319] Logging internal logs to /notebooks/mltheoryseminar/code/hw0/wandb/run-20210204_132729-35eumew9/logs/debug-internal.log
+2021-02-04 13:27:29,861 INFO    MainThread:4163 [wandb_run.py:finish():1056] finishing run davidassaraf/CS229br_hw0_memorizing_NN_Underparametrized/3g9k607h
+2021-02-04 13:27:29,862 INFO    MainThread:4163 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-02-04 13:27:29,862 INFO    MainThread:4163 [jupyter.py:save_history():208] not saving jupyter history
+2021-02-04 13:27:29,863 INFO    MainThread:4163 [wandb_run.py:_atexit_cleanup():1369] got exitcode: 0
+2021-02-04 13:27:29,863 INFO    MainThread:4163 [wandb_run.py:_restore():1341] restore
+2021-02-04 13:27:30,023 INFO    MainThread:4163 [wandb_run.py:_wait_for_finish():1492] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 833
+  total_bytes: 833
+}
+
+2021-02-04 13:27:32,033 INFO    MainThread:4163 [wandb_run.py:_wait_for_finish():1492] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2795
+  total_bytes: 2795
+}
+
+2021-02-04 13:27:33,151 INFO    MainThread:4163 [wandb_run.py:_show_files():1714] logging synced files
+2021-02-04 13:27:34,083 INFO    MainThread:4163 [wandb_run.py:_console_start():1399] atexit reg
+2021-02-04 13:27:34,084 INFO    MainThread:4163 [wandb_run.py:_redirect():1262] redirect: SettingsConsole.WRAP
+2021-02-04 13:27:34,084 INFO    MainThread:4163 [wandb_run.py:_redirect():1297] Wrapping output streams.
+2021-02-04 13:27:34,084 INFO    MainThread:4163 [wandb_run.py:_redirect():1313] Redirects installed.
+2021-02-04 13:27:57,126 INFO    MainThread:4163 [wandb_run.py:_atexit_cleanup():1369] got exitcode: 0
+2021-02-04 13:27:57,127 INFO    MainThread:4163 [wandb_run.py:_restore():1341] restore
+2021-02-04 13:27:57,271 INFO    MainThread:4163 [wandb_run.py:_wait_for_finish():1492] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 833
+  total_bytes: 833
+}
+
+2021-02-04 13:27:59,280 INFO    MainThread:4163 [wandb_run.py:_wait_for_finish():1492] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4419
+  total_bytes: 4419
+}
+
+2021-02-04 13:28:00,403 INFO    MainThread:4163 [wandb_run.py:_show_summary():1647] rendering summary
+2021-02-04 13:28:00,404 INFO    MainThread:4163 [wandb_run.py:_show_history():1685] rendering history
+2021-02-04 13:28:00,405 INFO    MainThread:4163 [wandb_run.py:_show_files():1714] logging synced files
+2021-02-04 13:28:00,409 INFO    MainThread:4163 [internal.py:handle_exit():156] Internal process exited

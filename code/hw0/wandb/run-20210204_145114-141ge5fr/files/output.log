@@ -1,0 +1,171 @@
+Starting Epoch 0
+Epoch 0:	 Train Loss: 1.897 	 Train Acc: 0.337	 Test Acc: 0.423
+Starting Epoch 1
+Epoch 1:	 Train Loss: 1.571 	 Train Acc: 0.447	 Test Acc: 0.475
+Starting Epoch 2
+Epoch 2:	 Train Loss: 1.443 	 Train Acc: 0.489	 Test Acc: 0.507
+Starting Epoch 3
+Epoch 3:	 Train Loss: 1.359 	 Train Acc: 0.521	 Test Acc: 0.530
+Starting Epoch 4
+Epoch 4:	 Train Loss: 1.293 	 Train Acc: 0.544	 Test Acc: 0.548
+Starting Epoch 5
+Epoch 5:	 Train Loss: 1.240 	 Train Acc: 0.565	 Test Acc: 0.565
+Starting Epoch 6
+Epoch 6:	 Train Loss: 1.200 	 Train Acc: 0.579	 Test Acc: 0.575
+Starting Epoch 7
+Epoch 7:	 Train Loss: 1.168 	 Train Acc: 0.592	 Test Acc: 0.584
+Starting Epoch 8
+Epoch 8:	 Train Loss: 1.141 	 Train Acc: 0.599	 Test Acc: 0.585
+Starting Epoch 9
+Epoch 9:	 Train Loss: 1.118 	 Train Acc: 0.610	 Test Acc: 0.599
+Starting Epoch 10
+Epoch 10:	 Train Loss: 1.098 	 Train Acc: 0.617	 Test Acc: 0.597
+Starting Epoch 11
+Epoch 11:	 Train Loss: 1.080 	 Train Acc: 0.623	 Test Acc: 0.602
+Starting Epoch 12
+Epoch 12:	 Train Loss: 1.065 	 Train Acc: 0.629	 Test Acc: 0.603
+Starting Epoch 13
+Epoch 13:	 Train Loss: 1.049 	 Train Acc: 0.635	 Test Acc: 0.610
+Starting Epoch 14
+Epoch 14:	 Train Loss: 1.037 	 Train Acc: 0.639	 Test Acc: 0.612
+Starting Epoch 15
+Epoch 15:	 Train Loss: 1.024 	 Train Acc: 0.642	 Test Acc: 0.611
+Starting Epoch 16
+Epoch 16:	 Train Loss: 1.013 	 Train Acc: 0.647	 Test Acc: 0.614
+Starting Epoch 17
+Epoch 17:	 Train Loss: 1.002 	 Train Acc: 0.651	 Test Acc: 0.620
+Starting Epoch 18
+Epoch 18:	 Train Loss: 0.994 	 Train Acc: 0.651	 Test Acc: 0.623
+Starting Epoch 19
+Epoch 19:	 Train Loss: 0.987 	 Train Acc: 0.656	 Test Acc: 0.631
+Starting Epoch 20
+Epoch 20:	 Train Loss: 0.977 	 Train Acc: 0.660	 Test Acc: 0.628
+Starting Epoch 21
+Epoch 21:	 Train Loss: 0.970 	 Train Acc: 0.661	 Test Acc: 0.626
+Starting Epoch 22
+Epoch 22:	 Train Loss: 0.963 	 Train Acc: 0.665	 Test Acc: 0.631
+Starting Epoch 23
+Epoch 23:	 Train Loss: 0.957 	 Train Acc: 0.666	 Test Acc: 0.635
+Starting Epoch 24
+Epoch 24:	 Train Loss: 0.950 	 Train Acc: 0.667	 Test Acc: 0.637
+Starting Epoch 25
+Epoch 25:	 Train Loss: 0.943 	 Train Acc: 0.672	 Test Acc: 0.636
+Starting Epoch 26
+Epoch 26:	 Train Loss: 0.937 	 Train Acc: 0.672	 Test Acc: 0.631
+Starting Epoch 27
+Epoch 27:	 Train Loss: 0.933 	 Train Acc: 0.675	 Test Acc: 0.641
+Starting Epoch 28
+Epoch 28:	 Train Loss: 0.924 	 Train Acc: 0.676	 Test Acc: 0.644
+Starting Epoch 29
+Epoch 29:	 Train Loss: 0.920 	 Train Acc: 0.678	 Test Acc: 0.641
+Starting Epoch 30
+Epoch 30:	 Train Loss: 0.915 	 Train Acc: 0.680	 Test Acc: 0.644
+Starting Epoch 31
+Epoch 31:	 Train Loss: 0.911 	 Train Acc: 0.681	 Test Acc: 0.644
+Starting Epoch 32
+Epoch 32:	 Train Loss: 0.906 	 Train Acc: 0.684	 Test Acc: 0.645
+Starting Epoch 33
+Epoch 33:	 Train Loss: 0.902 	 Train Acc: 0.687	 Test Acc: 0.649
+Starting Epoch 34
+Epoch 34:	 Train Loss: 0.897 	 Train Acc: 0.688	 Test Acc: 0.646
+Starting Epoch 35
+Epoch 35:	 Train Loss: 0.893 	 Train Acc: 0.688	 Test Acc: 0.639
+Starting Epoch 36
+Epoch 36:	 Train Loss: 0.890 	 Train Acc: 0.690	 Test Acc: 0.650
+Starting Epoch 37
+Epoch 37:	 Train Loss: 0.885 	 Train Acc: 0.693	 Test Acc: 0.646
+Starting Epoch 38
+Epoch 38:	 Train Loss: 0.882 	 Train Acc: 0.692	 Test Acc: 0.647
+Starting Epoch 39
+Epoch 39:	 Train Loss: 0.879 	 Train Acc: 0.694	 Test Acc: 0.652
+Starting Epoch 40
+Epoch 40:	 Train Loss: 0.873 	 Train Acc: 0.697	 Test Acc: 0.645
+Starting Epoch 41
+Epoch 41:	 Train Loss: 0.870 	 Train Acc: 0.696	 Test Acc: 0.654
+Starting Epoch 42
+Epoch 42:	 Train Loss: 0.869 	 Train Acc: 0.696	 Test Acc: 0.653
+Starting Epoch 43
+Exception in thread Thread-138:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/pin_memory.py", line 21, in _pin_memory_loop
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.6/multiprocessing/queues.py", line 113, in get
+    return _ForkingPickler.loads(res)
+  File "/usr/local/lib/python3.6/dist-packages/torch/multiprocessing/reductions.py", line 284, in rebuild_storage_fd
+    fd = df.detach()
+  File "/usr/lib/python3.6/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/usr/lib/python3.6/multiprocessing/resource_sharer.py", line 87, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 487, in Client
+    c = SocketClient(address)
+  File "/usr/lib/python3.6/multiprocessing/connection.py", line 614, in SocketClient
+    s.connect(address)
+FileNotFoundError: [Errno 2] No such file or directory
+
+ERROR:root:Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/interactiveshell.py", line 3326, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-5-f28e26a78327>", line 11, in <module>
+    train_loss, train_acc = train_epoch(model, train_dl, opt)
+  File "<ipython-input-3-c98aa716180e>", line 10, in train_epoch
+    for i, (xB, yB) in enumerate(tqdm(train_dl)):
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/notebook.py", line 253, in __iter__
+    for obj in super(tqdm_notebook, self).__iter__(*args, **kwargs):
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1166, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 804, in __next__
+    idx, data = self._get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 761, in _get_data
+    success, data = self._try_get_data()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 724, in _try_get_data
+    data = self.data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.6/queue.py", line 173, in get
+    self.not_empty.wait(remaining)
+  File "/usr/lib/python3.6/threading.py", line 299, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/interactiveshell.py", line 2040, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/ultratb.py", line 1101, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/ultratb.py", line 319, in wrapped
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/ultratb.py", line 353, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/usr/lib/python3.6/inspect.py", line 1490, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/usr/lib/python3.6/inspect.py", line 1448, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/usr/lib/python3.6/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/usr/lib/python3.6/inspect.py", line 739, in getmodule
+    f = getabsfile(module)
+  File "/usr/lib/python3.6/inspect.py", line 708, in getabsfile
+    _filename = getsourcefile(object) or getfile(object)
+  File "/usr/lib/python3.6/inspect.py", line 693, in getsourcefile
+    if os.path.exists(filename):
+  File "/usr/lib/python3.6/genericpath.py", line 19, in exists
+    os.stat(path)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 21700) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.
+Number of trainable parameters of the current model  6666

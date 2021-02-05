@@ -1,0 +1,295 @@
+Starting Epoch 0
+Epoch 0:	 Train Loss: 1.999 	 Train Acc: 0.297	 Test Acc: 0.397
+Starting Epoch 1
+Epoch 1:	 Train Loss: 1.612 	 Train Acc: 0.433	 Test Acc: 0.469
+Starting Epoch 2
+Epoch 2:	 Train Loss: 1.461 	 Train Acc: 0.483	 Test Acc: 0.502
+Starting Epoch 3
+Epoch 3:	 Train Loss: 1.363 	 Train Acc: 0.516	 Test Acc: 0.522
+Starting Epoch 4
+Epoch 4:	 Train Loss: 1.291 	 Train Acc: 0.541	 Test Acc: 0.530
+Starting Epoch 5
+Epoch 5:	 Train Loss: 1.233 	 Train Acc: 0.566	 Test Acc: 0.566
+Starting Epoch 6
+Epoch 6:	 Train Loss: 1.187 	 Train Acc: 0.582	 Test Acc: 0.581
+Starting Epoch 7
+Epoch 7:	 Train Loss: 1.153 	 Train Acc: 0.592	 Test Acc: 0.582
+Starting Epoch 8
+Epoch 8:	 Train Loss: 1.124 	 Train Acc: 0.603	 Test Acc: 0.588
+Starting Epoch 9
+Epoch 9:	 Train Loss: 1.102 	 Train Acc: 0.612	 Test Acc: 0.588
+Starting Epoch 10
+Epoch 10:	 Train Loss: 1.079 	 Train Acc: 0.618	 Test Acc: 0.600
+Starting Epoch 11
+Epoch 11:	 Train Loss: 1.059 	 Train Acc: 0.627	 Test Acc: 0.606
+Starting Epoch 12
+Epoch 12:	 Train Loss: 1.044 	 Train Acc: 0.631	 Test Acc: 0.602
+Starting Epoch 13
+Epoch 13:	 Train Loss: 1.031 	 Train Acc: 0.637	 Test Acc: 0.595
+Starting Epoch 14
+Epoch 14:	 Train Loss: 1.017 	 Train Acc: 0.642	 Test Acc: 0.605
+Starting Epoch 15
+Epoch 15:	 Train Loss: 1.005 	 Train Acc: 0.646	 Test Acc: 0.618
+Starting Epoch 16
+Epoch 16:	 Train Loss: 0.995 	 Train Acc: 0.647	 Test Acc: 0.619
+Starting Epoch 17
+Epoch 17:	 Train Loss: 0.988 	 Train Acc: 0.652	 Test Acc: 0.618
+Starting Epoch 18
+Epoch 18:	 Train Loss: 0.977 	 Train Acc: 0.656	 Test Acc: 0.622
+Starting Epoch 19
+Epoch 19:	 Train Loss: 0.969 	 Train Acc: 0.657	 Test Acc: 0.619
+Starting Epoch 20
+Epoch 20:	 Train Loss: 0.962 	 Train Acc: 0.659	 Test Acc: 0.626
+Starting Epoch 21
+Epoch 21:	 Train Loss: 0.956 	 Train Acc: 0.661	 Test Acc: 0.628
+Starting Epoch 22
+Epoch 22:	 Train Loss: 0.946 	 Train Acc: 0.666	 Test Acc: 0.630
+Starting Epoch 23
+Epoch 23:	 Train Loss: 0.943 	 Train Acc: 0.665	 Test Acc: 0.632
+Starting Epoch 24
+Epoch 24:	 Train Loss: 0.936 	 Train Acc: 0.668	 Test Acc: 0.628
+Starting Epoch 25
+Epoch 25:	 Train Loss: 0.929 	 Train Acc: 0.671	 Test Acc: 0.640
+Starting Epoch 26
+Epoch 26:	 Train Loss: 0.924 	 Train Acc: 0.673	 Test Acc: 0.637
+Starting Epoch 27
+Epoch 27:	 Train Loss: 0.919 	 Train Acc: 0.676	 Test Acc: 0.627
+Starting Epoch 28
+Epoch 28:	 Train Loss: 0.915 	 Train Acc: 0.677	 Test Acc: 0.638
+Starting Epoch 29
+Epoch 29:	 Train Loss: 0.909 	 Train Acc: 0.678	 Test Acc: 0.628
+Starting Epoch 30
+Epoch 30:	 Train Loss: 0.905 	 Train Acc: 0.679	 Test Acc: 0.637
+Starting Epoch 31
+Epoch 31:	 Train Loss: 0.900 	 Train Acc: 0.682	 Test Acc: 0.631
+Starting Epoch 32
+Epoch 32:	 Train Loss: 0.899 	 Train Acc: 0.681	 Test Acc: 0.637
+Starting Epoch 33
+Epoch 33:	 Train Loss: 0.894 	 Train Acc: 0.684	 Test Acc: 0.635
+Starting Epoch 34
+Epoch 34:	 Train Loss: 0.889 	 Train Acc: 0.686	 Test Acc: 0.636
+Starting Epoch 35
+Epoch 35:	 Train Loss: 0.887 	 Train Acc: 0.686	 Test Acc: 0.642
+Starting Epoch 36
+Epoch 36:	 Train Loss: 0.883 	 Train Acc: 0.687	 Test Acc: 0.638
+Starting Epoch 37
+Epoch 37:	 Train Loss: 0.877 	 Train Acc: 0.689	 Test Acc: 0.639
+Starting Epoch 38
+Epoch 38:	 Train Loss: 0.874 	 Train Acc: 0.690	 Test Acc: 0.644
+Starting Epoch 39
+Epoch 39:	 Train Loss: 0.873 	 Train Acc: 0.689	 Test Acc: 0.640
+Starting Epoch 40
+Epoch 40:	 Train Loss: 0.869 	 Train Acc: 0.690	 Test Acc: 0.644
+Starting Epoch 41
+Epoch 41:	 Train Loss: 0.867 	 Train Acc: 0.693	 Test Acc: 0.642
+Starting Epoch 42
+Epoch 42:	 Train Loss: 0.863 	 Train Acc: 0.693	 Test Acc: 0.643
+Starting Epoch 43
+Epoch 43:	 Train Loss: 0.863 	 Train Acc: 0.694	 Test Acc: 0.635
+Starting Epoch 44
+Epoch 44:	 Train Loss: 0.860 	 Train Acc: 0.694	 Test Acc: 0.646
+Starting Epoch 45
+Epoch 45:	 Train Loss: 0.857 	 Train Acc: 0.696	 Test Acc: 0.640
+Starting Epoch 46
+Epoch 46:	 Train Loss: 0.853 	 Train Acc: 0.696	 Test Acc: 0.633
+Starting Epoch 47
+Epoch 47:	 Train Loss: 0.850 	 Train Acc: 0.699	 Test Acc: 0.639
+Starting Epoch 48
+Epoch 48:	 Train Loss: 0.850 	 Train Acc: 0.698	 Test Acc: 0.639
+Starting Epoch 49
+Epoch 49:	 Train Loss: 0.847 	 Train Acc: 0.699	 Test Acc: 0.643
+Starting Epoch 50
+Epoch 50:	 Train Loss: 0.846 	 Train Acc: 0.701	 Test Acc: 0.646
+Starting Epoch 51
+Epoch 51:	 Train Loss: 0.845 	 Train Acc: 0.701	 Test Acc: 0.641
+Starting Epoch 52
+Epoch 52:	 Train Loss: 0.843 	 Train Acc: 0.702	 Test Acc: 0.643
+Starting Epoch 53
+Epoch 53:	 Train Loss: 0.839 	 Train Acc: 0.704	 Test Acc: 0.637
+Starting Epoch 54
+Epoch 54:	 Train Loss: 0.837 	 Train Acc: 0.703	 Test Acc: 0.644
+Starting Epoch 55
+Epoch 55:	 Train Loss: 0.836 	 Train Acc: 0.704	 Test Acc: 0.649
+Starting Epoch 56
+Epoch 56:	 Train Loss: 0.833 	 Train Acc: 0.704	 Test Acc: 0.643
+Starting Epoch 57
+Epoch 57:	 Train Loss: 0.833 	 Train Acc: 0.704	 Test Acc: 0.645
+Starting Epoch 58
+Epoch 58:	 Train Loss: 0.833 	 Train Acc: 0.704	 Test Acc: 0.645
+Starting Epoch 59
+Epoch 59:	 Train Loss: 0.830 	 Train Acc: 0.706	 Test Acc: 0.641
+Starting Epoch 60
+Epoch 60:	 Train Loss: 0.829 	 Train Acc: 0.705	 Test Acc: 0.648
+Starting Epoch 61
+Epoch 61:	 Train Loss: 0.826 	 Train Acc: 0.706	 Test Acc: 0.650
+Starting Epoch 62
+Epoch 62:	 Train Loss: 0.825 	 Train Acc: 0.708	 Test Acc: 0.645
+Starting Epoch 63
+Epoch 63:	 Train Loss: 0.822 	 Train Acc: 0.709	 Test Acc: 0.644
+Starting Epoch 64
+Epoch 64:	 Train Loss: 0.821 	 Train Acc: 0.711	 Test Acc: 0.648
+Starting Epoch 65
+Epoch 65:	 Train Loss: 0.819 	 Train Acc: 0.710	 Test Acc: 0.650
+Starting Epoch 66
+Epoch 66:	 Train Loss: 0.817 	 Train Acc: 0.711	 Test Acc: 0.649
+Starting Epoch 67
+Epoch 67:	 Train Loss: 0.819 	 Train Acc: 0.708	 Test Acc: 0.640
+Starting Epoch 68
+Epoch 68:	 Train Loss: 0.816 	 Train Acc: 0.710	 Test Acc: 0.647
+Starting Epoch 69
+Epoch 69:	 Train Loss: 0.814 	 Train Acc: 0.712	 Test Acc: 0.648
+Starting Epoch 70
+Epoch 70:	 Train Loss: 0.812 	 Train Acc: 0.711	 Test Acc: 0.644
+Starting Epoch 71
+Epoch 71:	 Train Loss: 0.813 	 Train Acc: 0.711	 Test Acc: 0.650
+Starting Epoch 72
+Epoch 72:	 Train Loss: 0.810 	 Train Acc: 0.711	 Test Acc: 0.646
+Starting Epoch 73
+Epoch 73:	 Train Loss: 0.809 	 Train Acc: 0.713	 Test Acc: 0.648
+Starting Epoch 74
+Epoch 74:	 Train Loss: 0.808 	 Train Acc: 0.712	 Test Acc: 0.644
+Starting Epoch 75
+Epoch 75:	 Train Loss: 0.806 	 Train Acc: 0.715	 Test Acc: 0.644
+Starting Epoch 76
+Epoch 76:	 Train Loss: 0.805 	 Train Acc: 0.714	 Test Acc: 0.655
+Starting Epoch 77
+Epoch 77:	 Train Loss: 0.804 	 Train Acc: 0.716	 Test Acc: 0.648
+Starting Epoch 78
+Epoch 78:	 Train Loss: 0.804 	 Train Acc: 0.714	 Test Acc: 0.639
+Starting Epoch 79
+Epoch 79:	 Train Loss: 0.802 	 Train Acc: 0.716	 Test Acc: 0.649
+Starting Epoch 80
+Epoch 80:	 Train Loss: 0.802 	 Train Acc: 0.716	 Test Acc: 0.651
+Starting Epoch 81
+Epoch 81:	 Train Loss: 0.800 	 Train Acc: 0.716	 Test Acc: 0.651
+Starting Epoch 82
+Epoch 82:	 Train Loss: 0.799 	 Train Acc: 0.717	 Test Acc: 0.648
+Starting Epoch 83
+Epoch 83:	 Train Loss: 0.800 	 Train Acc: 0.718	 Test Acc: 0.652
+Starting Epoch 84
+Epoch 84:	 Train Loss: 0.798 	 Train Acc: 0.717	 Test Acc: 0.642
+Starting Epoch 85
+Epoch 85:	 Train Loss: 0.798 	 Train Acc: 0.717	 Test Acc: 0.653
+Starting Epoch 86
+Epoch 86:	 Train Loss: 0.797 	 Train Acc: 0.716	 Test Acc: 0.649
+Starting Epoch 87
+Epoch 87:	 Train Loss: 0.794 	 Train Acc: 0.719	 Test Acc: 0.655
+Starting Epoch 88
+Epoch 88:	 Train Loss: 0.792 	 Train Acc: 0.719	 Test Acc: 0.644
+Starting Epoch 89
+Epoch 89:	 Train Loss: 0.796 	 Train Acc: 0.717	 Test Acc: 0.650
+Starting Epoch 90
+Epoch 90:	 Train Loss: 0.793 	 Train Acc: 0.719	 Test Acc: 0.650
+Starting Epoch 91
+Epoch 91:	 Train Loss: 0.791 	 Train Acc: 0.720	 Test Acc: 0.649
+Starting Epoch 92
+Epoch 92:	 Train Loss: 0.790 	 Train Acc: 0.720	 Test Acc: 0.646
+Starting Epoch 93
+Epoch 93:	 Train Loss: 0.790 	 Train Acc: 0.720	 Test Acc: 0.647
+Starting Epoch 94
+Epoch 94:	 Train Loss: 0.791 	 Train Acc: 0.719	 Test Acc: 0.645
+Starting Epoch 95
+Epoch 95:	 Train Loss: 0.790 	 Train Acc: 0.718	 Test Acc: 0.653
+Starting Epoch 96
+Epoch 96:	 Train Loss: 0.787 	 Train Acc: 0.720	 Test Acc: 0.650
+Starting Epoch 97
+Epoch 97:	 Train Loss: 0.787 	 Train Acc: 0.720	 Test Acc: 0.653
+Starting Epoch 98
+Epoch 98:	 Train Loss: 0.786 	 Train Acc: 0.722	 Test Acc: 0.650
+Starting Epoch 99
+Epoch 99:	 Train Loss: 0.786 	 Train Acc: 0.719	 Test Acc: 0.646
+Starting Epoch 100
+Epoch 100:	 Train Loss: 0.785 	 Train Acc: 0.721	 Test Acc: 0.643
+Starting Epoch 101
+Epoch 101:	 Train Loss: 0.785 	 Train Acc: 0.721	 Test Acc: 0.651
+Starting Epoch 102
+Epoch 102:	 Train Loss: 0.782 	 Train Acc: 0.724	 Test Acc: 0.648
+Starting Epoch 103
+Epoch 103:	 Train Loss: 0.785 	 Train Acc: 0.721	 Test Acc: 0.654
+Starting Epoch 104
+Epoch 104:	 Train Loss: 0.780 	 Train Acc: 0.725	 Test Acc: 0.649
+Starting Epoch 105
+Epoch 105:	 Train Loss: 0.781 	 Train Acc: 0.723	 Test Acc: 0.654
+Starting Epoch 106
+Epoch 106:	 Train Loss: 0.780 	 Train Acc: 0.723	 Test Acc: 0.657
+Starting Epoch 107
+Epoch 107:	 Train Loss: 0.780 	 Train Acc: 0.724	 Test Acc: 0.652
+Starting Epoch 108
+Epoch 108:	 Train Loss: 0.780 	 Train Acc: 0.723	 Test Acc: 0.653
+Starting Epoch 109
+Epoch 109:	 Train Loss: 0.778 	 Train Acc: 0.725	 Test Acc: 0.652
+Starting Epoch 110
+Epoch 110:	 Train Loss: 0.777 	 Train Acc: 0.724	 Test Acc: 0.650
+Starting Epoch 111
+Epoch 111:	 Train Loss: 0.777 	 Train Acc: 0.724	 Test Acc: 0.646
+Starting Epoch 112
+Epoch 112:	 Train Loss: 0.777 	 Train Acc: 0.726	 Test Acc: 0.651
+Starting Epoch 113
+Epoch 113:	 Train Loss: 0.776 	 Train Acc: 0.725	 Test Acc: 0.653
+Starting Epoch 114
+Epoch 114:	 Train Loss: 0.776 	 Train Acc: 0.725	 Test Acc: 0.648
+Starting Epoch 115
+Epoch 115:	 Train Loss: 0.775 	 Train Acc: 0.727	 Test Acc: 0.649
+Starting Epoch 116
+Epoch 116:	 Train Loss: 0.775 	 Train Acc: 0.726	 Test Acc: 0.655
+Starting Epoch 117
+Epoch 117:	 Train Loss: 0.773 	 Train Acc: 0.725	 Test Acc: 0.651
+Starting Epoch 118
+ERROR:root:Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/interactiveshell.py", line 3326, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-5-f28e26a78327>", line 11, in <module>
+    train_loss, train_acc = train_epoch(model, train_dl, opt)
+  File "<ipython-input-3-5a702b0e8a1c>", line 10, in train_epoch
+    for i, (xB, yB) in enumerate(tqdm(train_dl)):
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/notebook.py", line 253, in __iter__
+    for obj in super(tqdm_notebook, self).__iter__(*args, **kwargs):
+  File "/usr/local/lib/python3.6/dist-packages/tqdm/std.py", line 1166, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 278, in __iter__
+    return _MultiProcessingDataLoaderIter(self)
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/dataloader.py", line 682, in __init__
+    w.start()
+  File "/usr/lib/python3.6/multiprocessing/process.py", line 105, in start
+    self._popen = self._Popen(self)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 223, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/usr/lib/python3.6/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/interactiveshell.py", line 2040, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'OSError' object has no attribute '_render_traceback_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/ultratb.py", line 1101, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/ultratb.py", line 319, in wrapped
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/IPython/core/ultratb.py", line 353, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/usr/lib/python3.6/inspect.py", line 1490, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/usr/lib/python3.6/inspect.py", line 1448, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/usr/lib/python3.6/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/usr/lib/python3.6/inspect.py", line 733, in getmodule
+    if ismodule(module) and hasattr(module, '__file__'):
+  File "/usr/local/lib/python3.6/dist-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 14312) is killed by signal: Killed. 
+Number of trainable parameters of the current model  6666
